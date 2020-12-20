@@ -138,12 +138,6 @@
             <g id="Living-Room" transform="translate(168.000000, 122.000000)" stroke="#979797">
                 <rect id="Rectangle" stroke-width="3" fill="#FFF2E4" x="1.5" y="1.52352941" width="218" height="252.976471"></rect>
                 <use id="Combined-Shape" mask="url(#mask-6)" stroke-width="2" fill="#FFF2E4" stroke-dasharray="1,1" xlink:href="#path-5"></use>
-                <g id="Living-Room-Lights" transform="translate(39.000000, 47.000000)" fill="#FFF3A0">
-                    <circle id="Oval" cx="131" cy="10" r="9.5"></circle>
-                    <circle id="Oval" cx="10" cy="153" r="9.5"></circle>
-                    <circle id="Oval" cx="10" cy="10" r="9.5"></circle>
-                    <circle id="Oval" cx="131" cy="153" r="9.5"></circle>
-                </g>
             </g>
             <g id="Pantry-Hallway" transform="translate(1.000000, 376.000000)" stroke="#979797">
                 <rect id="Rectangle" stroke-width="3" fill="#FFF2E4" x="-1.5" y="0.5" width="110" height="60"></rect>
@@ -167,18 +161,6 @@
                 <path d="M169.5,-1.5 L169.5,355.5 L-1.5,355.5 L-1.5,-1.5 L169.5,-1.5 Z" id="Floor" stroke-width="3" fill="#FFF2E4"></path>
                 <use id="Rectangle" mask="url(#mask-12)" stroke-width="2" fill="#FFF2E4" stroke-dasharray="4" xlink:href="#path-11"></use>
                 <use id="Rectangle" mask="url(#mask-14)" stroke-width="2" fill="#FFF2E4" stroke-dasharray="4" xlink:href="#path-13"></use>
-                <g id="Kitchen-Pendants" transform="translate(97.000000, 181.000000)" fill="#FFF3A0">
-                    <circle id="Oval" cx="10" cy="10" r="9.5"></circle>
-                    <circle id="Oval" cx="10" cy="80" r="9.5"></circle>
-                </g>
-                <g id="Kitchen-Lights" transform="translate(47.000000, 141.000000)" fill="#FFF3A0">
-                    <circle id="Oval" cx="10" cy="10" r="9.5"></circle>
-                    <circle id="Oval" cx="91" cy="10" r="9.5"></circle>
-                    <circle id="Oval" cx="10" cy="87" r="9.5"></circle>
-                    <circle id="Oval" cx="91" cy="87" r="9.5"></circle>
-                    <circle id="Oval" cx="10" cy="160" r="9.5"></circle>
-                    <circle id="Oval" cx="91" cy="160" r="9.5"></circle>
-                </g>
             </g>
             <g id="Master-Bedroom" transform="translate(373.000000, 0.000000)" stroke="#979797">
                 <path d="M180.562726,-1.50109302 L204.542974,19.5 L234.5,19.5 L234.5,209.5 L14.5,209.5 L14.5,19.5 L43.6811774,19.5 L67.5886345,-1.28222079 L180.562726,-1.50109302 Z" id="Floor" stroke-width="3" fill="#FFF2E4"></path>

@@ -29,7 +29,7 @@
 }
 
 .toggle .toggle-control.active:after {
-  transform: translateX(120px);
+  transform: translateX(80px);
 }
 
 .dimmer {
@@ -93,4 +93,25 @@
   @apply p-2 px-4;
   @apply text-white;
   border-radius: 20px;
+}
+
+.tabs {
+  @apply flex flex-row;
+  @apply pb-5;
+}
+
+.tabs .tab {
+  @apply text-center;
+  @apply py-2;
+  flex-basis: 25px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.tabs .tab.active {
+  @apply bg-blue-300;
+  @apply font-bold;
+  @apply text-white;
 }

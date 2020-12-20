@@ -6,6 +6,6 @@ export interface SmartItem {
   type: string;
   name: string;
   category: string;
-  tags?: string[];
-  groups?: string[];
+  tags: string[];
+  groupNames: string[];
 }
