@@ -1,0 +1,96 @@
+.toggle {
+  @apply flex flex-col;
+  max-width: 100px;
+}
+
+.toggle label {
+  @apply text-sm;
+}
+
+
+.toggle .toggle-control {
+  @apply bg-gray-200;
+  @apply mt-2;
+  @apply relative;
+  height: 25px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.toggle .toggle-control:after {
+  @apply absolute;
+  @apply bg-gray-500;
+  content: '';
+  top: 0;
+  bottom: 0;
+  width: 25px;
+  border-radius: 20px;
+  transition: transform 200ms;
+}
+
+.toggle .toggle-control.active:after {
+  transform: translateX(120px);
+}
+
+.dimmer {
+  @apply flex flex-col;
+}
+
+.dimmer label {
+  @apply text-sm;
+}
+
+.dimmer .dimmer-control-container {
+  @apply flex flex-row;
+  @apply mt-2;
+  height: 25px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.dimmer .dimmer-control {
+  @apply bg-gray-200;
+  @apply relative;
+  height: 100%;
+  flex-basis: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.dimmer .dimmer-control-container:before {
+  @apply bg-gray-200;
+  content: '';
+  display: block;
+  width: 12px;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.dimmer .dimmer-switch {
+  @apply bg-gray-500;
+  @apply absolute;
+  height: 100%;
+  width: 25px;
+  border-radius: 20px;
+  transform: translate(-12px);
+}
+
+.modal {
+  @apply shadow-2xl;
+  @apply fixed bottom-0 right-0 top-0;
+  @apply bg-gray-100;
+  @apply p-6;
+
+  max-width: 50vw;
+  width: 100%;
+}
+
+.c-btn {
+  @apply bg-blue-600;
+  @apply p-2 px-4;
+  @apply text-white;
+  border-radius: 20px;
+}
